@@ -1,0 +1,122 @@
+﻿/***************HEADER********************/
+navbar-section {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+}
+
+.header-container {
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***********MAIN CONENT************/
+
+body {
+    background-color: #fbfbfb;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-slide {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    min-height: 300px;
+    background-image: url("../assets/images/family2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.slide-text {
+    margin-bottom: 6em;
+}
+
+.slide-text h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-text p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 0.875rem;
+    margin: 0;
+    line-height: 1.4rem;
+    padding: 0;
+}
+
+.wrapper {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding-top: 6em;
+}
+
+section.more-info {
+    width: 300px;
+    background-color: white;
+    padding: 1.875em 2.1875em;
+    margin: 1.25em 0;
+}
+
+section.more-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #004C97;
+}
+
+section.more-info p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+}
+
+section.more-info button {
+    background-color: #D60078;
+    color: white;
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    padding: 1.25em;
+}
+
+@media only screen and (min-width: 600px) {
+    .hero-slide {
+        height: 100%;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slide-text {
+        width: 50%;
+    }
+    .slide-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    section.more-info {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
